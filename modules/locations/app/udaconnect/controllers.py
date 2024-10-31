@@ -37,7 +37,7 @@ class LocationResource(Resource):
         return location
 
 
-@api.route("/persons")
+""" @api.route("/persons")
 class PersonsResource(Resource):
     @accepts(schema=PersonSchema)
     @responds(schema=PersonSchema)
@@ -81,3 +81,4 @@ class ConnectionDataResource(Resource):
             meters=distance,
         )
         return results
+ """
