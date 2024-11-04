@@ -31,7 +31,7 @@ spec:
         service: udaconnect-persons
     spec:
       containers:
-      - image: jcamarena/udaconnect-persons:1.0.0
+      - image: jcamarena/udaconnect-persons:1.0.1
         name: udaconnect-persons
         imagePullPolicy: Always
         env:
